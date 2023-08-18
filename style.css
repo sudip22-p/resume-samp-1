@@ -71,7 +71,7 @@ div.left-box .language .lang-name{
 div.left-box .language .level{
     background-color: white;
     border-radius: 20px;
-    height: 8px;
+    height: 6px;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.7);
     padding: 0px;
@@ -79,7 +79,7 @@ div.left-box .language .level{
 }
 div.left-box .language .level .value{
     background-color: blue;
-    height: 8px;
+    height: 6px;
     border-radius: 4px;
     animation-name: flow;
     animation-delay: 1s;
@@ -105,7 +105,7 @@ div.right-box .prof-skills{
 div.right-box .prof-skills .level{
     background-color: white;
     border-radius: 20px;
-    height: 10px;
+    height: 9px;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.7);
     padding: 0px;
@@ -113,7 +113,7 @@ div.right-box .prof-skills .level{
 }
 div.right-box .prof-skills .level .value{
     background-color: blue;
-    height: 10px;
+    height: 9px;
     border-radius: 4px;
     animation-name: flow;
     animation-delay: 1s;
