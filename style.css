@@ -7,7 +7,7 @@ div,span,p{
     word-wrap: break-word;
 }
 body{
-    width: 100%;
+    overflow-x: hidden;
 }
 div.resume {
     display: grid;
@@ -15,7 +15,8 @@ div.resume {
     justify-content: center;
     align-items: start;
     min-height: 100vh;
-    width: 95vw;
+    overflow-x: hidden;
+
 }
 div.left-box{
     padding: 10px 18px;
@@ -180,24 +181,23 @@ div.right-side h3{
         justify-content: center;
     }
     div.more-info{
-        display: grid;
-        grid-template-columns: 3fr 1fr 2fr;
-        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         gap: 30px;
         padding: 50px;
         width: 100%;
     }
-    /* div.right-box .prof-skills{
-        grid-template-columns: repeat(1,1fr);
-        gap: 5px;
-        padding: 20px;
-        width: 70%;
-        position: relative;
-        left: 20px;
-    } */
+    div.left-box .language{
+        width: 60%;
+    }
 }
 @media (max-width:762px) {
+    div.left-box .main-desc img{
+        height: 220px;
+        border: 7px solid white;
+    }
     body{
         width: 100vw;
     }
@@ -214,5 +214,51 @@ div.right-side h3{
         justify-content: center;
         grid-gap: 20px;
         width: 100vw;
+    }
+    div.right-box .interests{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    div.right-box .prof-skills{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 10px;
+        padding-left: 100px;
+    }
+    div.right-box .prof-skills .level{
+        width: 500px;
+    }
+    div.right-box .prof-skills .level .value{
+        width: 40%;
+    }
+}
+@media (max-width:630px) {
+    div.left-box .main-desc img{
+        height: 150px;
+        border: 5px solid white;
+    }
+    div.right-box .prof-skills .level{
+        width: 300px;
+    }
+    div.right-box .prof-skills .level .value{
+        width: 40%;
+    }
+}
+@media (max-width:440px) {
+    div.right-box .prof-skills{
+
+        padding-left: 20px;
+    }
+    div.right-box .prof-skills .level{
+        width: 200px;
+    }
+    div.right-box .prof-skills .level .value{
+        width: 40%;
     }
 }
