@@ -1,0 +1,14 @@
+document.getElementsByClassName("english-value")[0].style.width="80%";
+document.getElementsByClassName("nepali-value")[0].style.width="95%";
+document.getElementsByClassName("hindi-value")[0].style.width="65%";
+document.getElementsByClassName("html-value")[0].style.width="90%";
+document.getElementsByClassName("css-value")[0].style.width="60%";
+document.getElementsByClassName("js-value")[0].style.width="85%";
+document.getElementsByClassName("php-value")[0].style.width="60%";
+document.getElementsByClassName("my-sql-value")[0].style.width="70%";
+document.getElementsByClassName("git-value")[0].style.width="78%";
+document.getElementsByClassName("java-value")[0].style.width="68%";
+document.getElementsByClassName("c-value")[0].style.width="95%";
+document.getElementsByClassName("cpp-value")[0].style.width="90%";
+document.getElementsByClassName("flutter-value")[0].style.width="40%";
+document.getElementsByClassName("linux-value")[0].style.width="38%";
